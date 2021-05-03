@@ -1,0 +1,1179 @@
+@charset "UFT-8"; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    position: relative;
+    width: 1600px;
+    height: 5439px;
+    overflow: auto;
+    overflow-x: hidden;
+    display: block;
+    margin: 8px;
+   
+}
+
+
+
+header {
+    position: absolute;
+    width: 1600px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    
+    display: flex;
+    
+}
+.header {
+    max-width: 1600px;
+    height: 82px;
+    margin: auto;
+    height: 82px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    left: 210px;
+    margin-right: 82.28px;
+}
+.menu {
+    flex: 1;
+    display: flex;
+    width: 603px;
+    height: 80px;
+    align-items: center;
+    left: 376px;
+    margin-right: 5px;
+   
+}
+.menu ul, .menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    color: #1E266D ;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.logoimg {
+    width: 80.97px;
+    height: 27.95px;
+    background-image: url(../zenit-/header/logo.png);
+}
+
+.contato {
+   
+    flex: 2;
+    display: flex;
+    width:163px;
+    height:80px;
+    margin-left: px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.contato a {
+    text-decoration: none;
+    color: #1E266D;
+
+    font-size: 16px;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 34px;
+   
+
+    
+}
+ .botaomenu{
+  
+    width: 113px;
+    height: 40px;
+    margin-right: 34px;
+    
+    background: #3751FF;
+    border-radius: 100px;
+
+ }
+
+ .botaomenu a {
+    text-decoration: none;
+    color: #fff;
+     height: 40px;
+     width: 83px;
+     line-height: 40px;
+     margin-left: 16px;
+     margin-right: 14px;
+   }
+
+main {
+    position: absolute;
+    width: 1600px;
+    height: 1012px;
+    left: 0px;
+    top: 82px;
+    }
+    
+.banner {
+    background-repeat:no-repeat; 
+position: absolute;
+width: 1600px;
+height: 878px;
+left: 0px;
+
+
+background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+border-radius: 0px;
+}
+
+main .banner h1 {
+    position: absolute;
+width: 1178px;
+height: 118px;
+left: 210px;
+top: 144px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 105%;
+/* or 59px */
+
+text-align: center;
+
+color: #1E266D;
+}
+
+main .banner h2 {
+position: relative;
+width: 1180px;
+height: 27px;
+left: 210px;
+top: 289px;
+
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #455880;
+}
+
+main .botao {
+    position: absolute;
+    width: 148.06px;
+    height: 50px;
+    left: 615px;
+    top: 345px;
+    background: #3751FF;
+    border-radius: 100px;   
+}
+
+main .botao a {
+    position: absolute;
+    margin-left: 35px;
+    top: 17px;
+
+    width: 112px;
+    height: 16px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.botaomenu a:hover, .botao a:hover , .botao2 a:hover {
+    color: #ccc;
+}
+
+main .botao2 {
+    position: absolute;
+    width: 199.26px;
+    height: 50px;
+    left: 785.53px;
+    top: 345px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+main .botao2 a {
+    position: absolute;
+    margin-left: 45px;
+    height: 50px;
+    top: 0px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: #455880;
+    text-decoration: none;
+}
+.grafico img {
+    position: absolute;
+    width: 977px;
+    height: 585px;
+    left: 342px;
+    top: 463px;
+
+}
+
+.logos {
+    position: absolute;
+    
+    width: 1179.4px;
+    height: 112px;
+    left: 210px;
+    right: 211.6px;
+    top: 1066px;
+  
+}
+
+.logos span {
+    position: absolute;
+    width: 441px;
+    left: 369px;
+    bottom: 85px;
+
+    text-align: center;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    
+    color: rgba(69, 88, 128, 0.5);
+
+}
+.logos .logo1 {
+    position: absolute;
+    height: 34px;
+    width: 110px;
+    left:0px;
+    top: 75px;
+    border-radius: 0px;
+    background:url(main/logos/logo-1.png);
+
+}
+
+.logos .logo2 {
+    position: absolute;
+    height: 33px;
+    width: 95px;
+    left: 182px;
+    top: 76px;
+    border-radius: 0px;
+    background:url(main/logos/logo-2.png);
+
+}
+
+.logos .logo3 {
+    position: absolute;
+    height: 34px;
+    width: 80px;
+    left: 349px;
+    top: 75px;
+    border-radius: 0px;
+    background:url(main/logos/logo-3.png);
+
+}
+.logos .logo4 {
+    position: absolute;
+    height: 33px;
+    width: 174px;
+    left: 501px;
+    top: 76px;
+    border-radius: 0px;
+    background:url(main/logos/logo-4.png);
+
+}
+
+.logos .logo5 {
+    position: absolute;
+    height: 33px;
+    width: 115px;
+    left: 747px;
+    top: 78px;
+    border-radius: 0px;
+    background:url(main/logos/logo-5.png);
+
+}
+
+.logos .logo6 {
+    position: absolute;
+    height: 34px;
+    width: 102px;
+    left: 934px;
+    top: 78px;
+    border-radius: 0px;
+    background:url(main/logos/logo-6.png);
+
+}
+
+.logos .logo7 {
+    position: absolute;
+    height: 34px;
+    width: 71.40px;
+    left: 1108px;
+    top: 76px;
+    border-radius: 0px;
+    background:url(main/logos/logo-7.png);
+
+}
+
+
+.about {
+    position: absolute;
+    height: 932px;
+    width: 1219px;
+    left: 205px;
+    top: 1408px;
+   
+  
+   
+
+}
+
+.about h1 {
+    height: 120px;
+    width: 1214px;
+    left: 210px;
+    top: 1417px;
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #1E266D;
+
+}
+
+.about .grafico img {
+    height: 932px;
+    width: 611px;
+    left: 0px;
+    top: 0px;
+}
+
+.about .text {
+
+    position: absolute;
+    height: 641px;
+    width: 405px;
+    left: 779px;
+    right: 35px;
+    top: 251px;
+    
+}
+
+.text .text1 {
+    position: absolute;
+    height: 193px;
+    width: 405px;
+    left: 0px;
+    top: 0px;
+}
+
+.text .text2 {
+    position: absolute;
+    height: 193px;
+    width: 405px;
+    left: 0px;
+    top: 224px;
+}
+
+.text .text3 {
+    position: absolute;
+    height: 193px;
+    width: 405px;
+    left: 0px;
+    top: 448px;
+}
+
+.text .icon1, .icon2, .icon3{ 
+    position: absolute;
+    height: 58px;
+    width: 58px;
+    left: 0px;
+    top: 4px;
+    bottom: 131px;
+}
+ .text1 h1 , .text3 h1 {
+    position: absolute;
+    height: 59px;
+    width: 300px;
+    left: 35px;
+    bottom: 134px;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+   
+    color: #1E266D;
+}
+.text2 h1 {
+    position: absolute;
+    height: 59px;
+    width: 300px;
+    left: 15px;
+    bottom: 134px;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+   
+    color: #1E266D;
+}
+.text1 h2, .text2 h2, .text3 h2{
+    position: absolute;
+    height: 134px;
+    width: 300px;
+    left: 105px;
+    top: 59px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #455880;
+}
+
+.text1 p, .text2 p {
+    position: absolute;
+    height: 0px;
+    width: 405px;
+    left: 0px;
+    top: 163px;
+    bottom: 10px;
+    border: 1px solid #45588033;
+}
+
+
+.portifolio {
+    position: absolute;
+    height: 1001px;
+    width: 1600px;
+    left: 0px;
+    top: 2490px;
+    border-radius: 0px;
+    background: #FFF9EA;
+}
+
+.portifolio h1 {
+    position: absolute;
+    height: 60px;
+    width: 1178px;
+    left: 211px;
+    top: 139px;
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #1E266D;
+}
+
+.portifolio h2 {
+    position: absolute;
+    height: 96px;
+    width: 1178px;
+    left: 210px;
+    top: 239px;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 150%;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #455880;
+
+}
+
+.portifolio .botao {
+    position: absolute;
+    left: 728px;
+    right: 723.94;
+    top: 375px;
+    bottom: 0%;
+
+    background: #3751FF;
+    border-radius: 100px;
+
+}
+
+.portifolio .botao a {
+    height: 16px;
+    width: 112px;
+    
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.portifolio .grafico {
+    position: absolute;
+    height: 733px;
+    width: 1635px;
+    left: -7px;
+    top: 462px;
+   
+    background-color: violet;
+}
+
+/* .portifolio .imagens {
+    position: absolute;
+    height: 733px;
+    width: 1635px;
+    left: -7px;
+    top: 462px;
+    border-radius: 18px;
+    background-color: violet;
+
+} */
+.imagens {
+    filter: drop-shadow(0px 4px 4px rgba(135, 146, 161, 0.08)), drop-shadow(0px 14px 25px rgba(135, 146, 161, 0.06));
+border-radius: 18px;
+}
+.portifolio .img1 {
+   position: absolute;
+   top: 885px;
+   left: 655px;
+   right: 655px;
+   bottom:0px ;
+   background: url(main/portifolio/imagens/img1.png);
+
+}
+
+.portifolio .img2 {
+   position: absolute;
+    top:462px;
+    left: 7px;
+    bottom: 308px;
+    right:1296px ;
+    background: url(main/portifolio/imagens/img2.png);
+}
+
+.portifolio .img3 {
+    position: absolute;
+    top: 973px;
+    bottom: 0px;
+    left: 986px;
+    right: 303px;
+    background: url(main/portifolio/imagens/img3.png);
+}
+.portifolio .img4 {
+    position: absolute;
+    top:693px;
+    bottom: 77px;
+    left: 986px;
+    right: 303px;
+    background: url(main/portifolio/imagens/img4.png);
+    filter: drop-shadow(0px 4px 4px rgba(135, 146, 161, 0.08)), drop-shadow(0px 14px 25px rgba(135, 146, 161, 0.06));
+    border-radius: 18px;
+    
+   
+}
+.portifolio .img5 {
+    position: absolute;
+    top: 828px;
+    bottom: 0px;
+    left: 324px;
+    right:965px ;
+    background: url(main/portifolio/imagens/img5.png);
+    filter: drop-shadow(0px 4px 4px rgba(135, 146, 161, 0.08)), drop-shadow(0px 14px 25px rgba(135, 146, 161, 0.06));
+    border-radius: 18px;
+    
+}
+
+.feedback {
+    
+    position: absolute;
+    height: 583px;
+    width: 1179px;
+    left: 210px;
+    top: 3723px;
+   
+    
+
+}
+
+.feedback h1 {
+    top: 0px;
+    bottom: 523px;
+    left: 354.1px;
+    right: 342.23px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #1E266D;
+}
+
+.grupo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 116px;
+
+    width: 1179px;
+    height: 583px;
+}
+
+.perfil1, .perfil2, .perfil3 {
+    position: absolute;
+    width: 63.3px;
+    height: 64px;
+
+    top: 288px;
+    bottom: 115px;
+    left: 154.3px;
+    right: 155.29px;
+}
+.g1 .perfil1 {
+    background: url(main/feedbak/grupo1.png);
+
+}
+.g2 .perfil2 {
+    background: url(main/feedbak/grupo2.png);
+
+}
+.g3 .perfil3 {
+    background: url(main/feedbak/grupo3.png);
+
+}
+
+ .grupo .g1 {
+    display: flex;
+    position: absolute;
+    
+    width: 372.89px;
+    height: 467px;
+    
+    top: 116px;
+    left: 0px;
+    bottom: 0px;
+    right: 806.11px;
+   
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+  
+}
+.grupo .g2 {
+    display: flex;
+    position: absolute;
+    
+    width: 372.89px;
+    height: 467px;
+    
+    top: 116px;
+    bottom: 0px;
+    left:401.57px ;
+    right: 404.54px;
+    
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+   
+}
+
+.grupo .g3 {
+    display: flex;
+    position: absolute;
+   
+    width: 372.89px;
+    height: 467px;
+    
+    top: 116px;
+    bottom: 0px;
+    left: 806.11px;
+    right: 0px;
+ 
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    
+}
+
+
+.g1 h1, .g2 h1, .g3 h1 {
+    position: absolute;
+    width: 286px;
+    height: 211px;
+
+    top: 38px;
+    left: 43px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    
+
+
+    text-align: justify;
+    align-items: center;
+   
+   
+    color: #455880;
+    
+}
+
+.g1 h2, .g2 h2, .g3 h2{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+
+    top: 375px;
+    left: 51px;
+   
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+
+    color: #1E266D;
+}
+
+.g1 h3, .g2 h3, .g3 h3 {
+    position: absolute;
+    width: 247px;
+    height: 32px;
+
+    top: 403px;
+    bottom: 32px;
+    left: 63px;
+    right: 62.89;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    text-align: center;
+
+    color: #455880;
+}
+
+
+.cta {
+    position: absolute;
+    width: 1600px;
+    height: 323px;
+    left: 0px;
+    top: 4456px;
+    background: #3751FF;
+}
+
+.cta h1 {
+    position: absolute;
+    top: 88px;
+    left: 205px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+/* or 125% */
+    color: #FFFFFF;
+}
+
+.cta .botao {
+    position: absolute;
+    top: 115px;
+    left: 1143.72px;
+    right: 211px;
+
+    width: 245.28px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+
+.cta .botao div {
+  
+    position: absolute;
+    top: 13px;
+    left: 27.28px;
+
+    width: 29px;
+    height: 29px;
+
+   background: url(main/cta/icon-bt.png);
+}
+
+.cta .botao a {
+     
+    width: 161px;
+    height: 26px;
+    
+    top: 17px;
+    bottom: 13px;
+    left: 53.28px;
+    right:31px;
+
+    margin-left: 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    /* or 20px */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    color: #455880;
+
+}
+
+.cta h2 {
+    position: absolute;
+
+    width: 388px;
+    height: 20px;
+
+    top: 190px;
+    left: 1001px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 20px */
+
+    text-align: right;
+
+    color: #DFE0EB;
+    }
+
+
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 660px;
+    left: 1px;
+    top: 4779px;
+    
+    display: flex;
+   
+}
+
+footer .logo1 {
+    position: absolute;
+    flex: 1;
+
+    width: 310px;
+    height: 266px;
+
+    top: 128px;
+    left: 204px;
+}
+
+.logo1 .digits {
+    position: absolute;
+
+    width: 70.31px;
+    height: 26.16px;
+
+    top: 5.44px;
+    letter-spacing: 0.58px;
+
+    background: url(footer/logo.png);
+    background-repeat: no-repeat;
+}
+
+.logo1 h1 {
+    position: absolute;
+   
+
+    width: 310px;
+    height: 211px;
+
+    top: 55px;
+    left: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 26px */
+
+
+    color: #455880;
+}
+
+.logo2, .logo3, .logo4 {
+    position: absolute;
+    flex: 1;
+
+    top: 124px;
+   
+}
+
+
+.logo2 {
+    width: 212px;
+    height: 261px;
+    left: 698px;
+}
+.logo3 {
+    width: 212px;
+    height: 261px;
+    left: 925px;
+}
+.logo4 {
+    width: 217px;
+    height: 261px;
+    right:212px ;
+}
+
+.logo2 h1, .logo3 h1 , .logo4 h1{
+    position: absolute;
+
+    width: 212px;
+    height: 28px;
+
+    top: 0px;
+    left: 0px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    /* identical to box height, or 27px */
+    
+    
+    color: #1E266D;
+}
+
+.logo2 ul, .logo3 ul {
+    position: absolute;
+
+    width: 197px;
+    height: 211px;
+
+    top: 50px;
+    right: 15px ;
+}
+
+.logo2 ul, .logo2 li, .logo3 ul, .logo3 li {
+    list-style: none;   
+}
+
+.logo2 ul, .logo3 ul{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.logo2 ul a, .logo3 ul a, .sociais{
+    top: 22px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+  
+    height: 100%;
+
+    color: #1E266D ;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.logo4 .sociais {
+    position: absolute;
+    
+    width: 171px;
+    height: 17px;
+
+    top:59px;
+    
+
+}
+.social1, .social2, .social3,.social4, .social5 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+.social1 {
+    top: 1.02px;
+    left: 1.02px;
+
+    background: url(footer/social/icon-facebook.png);
+}
+.social2 {
+    top:1.36px;
+    left: 40.96px;
+    background: url(footer/social/icon-instagram.png);
+}
+.social3 {
+    top:2.05px;
+    left: 79px;
+    background: url(footer/social/icon-twitter.png);
+}
+.social4 {
+    top:1.16px;
+    left: 116.72px;
+    background: url(footer/social/icon-dribbble.png);
+}
+.social5 {
+    top:1px;
+    left: 156px;
+    background: url(footer/social/icon-envato.png);
+}
+
+.logo4 .h2 {
+    position: absolute;
+
+    width:217px ;
+    height:161px ;
+    
+    top:100px ;
+    left: 0px;
+   
+}.h2 a {
+    position:absolute;
+    
+    text-decoration: none;
+    top:0px;
+    left: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 225%;
+}
+
+
+footer p {
+    position: absolute;
+    height: 0px;
+    width: 1184.0000000000045px;
+    left: 204px;
+    top: 462px;
+
+    border: 1px solid rgba(135, 146, 161, 0.08);
+}
+
+footer span {
+    position: absolute;
+    width: 583px;
+    height: 38px;
+
+    top: 515px;
+    left: 204px;
+
+    text-align: start;
+}
+
+footer .termos {
+    position: absolute;
+   
+    width: 583px;
+    height: 38px;
+
+    top: 515px;
+    left: 805px;
+    background-color: thistle;
+
+    text-decoration: none;
+    list-style: none;
+
+    display: flex;
+
+}
+
+.termos ul, .termos li  {
+    list-style: none;
+   
+}
+.termos ul {
+    display: flex;
+    text-align: right;
+  
+}
+.termos ul a {
+ 
+    text-decoration: none;
+    padding-left: 20px;
+
+    flex: 1;
+    height: 100%;
+
+    color: #1E266D ;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    text-align: right;
+  
+}
+
+
