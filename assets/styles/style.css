@@ -228,7 +228,7 @@ main .botao2 a {
   left: 0px;
   top: 75px;
   border-radius: 0px;
-  background: url(main/logos/logo-1.png);
+  background: url(/assets/images/main/logos/logo-1.png);
 }
 
 .logos .logo2 {
@@ -238,7 +238,7 @@ main .botao2 a {
   left: 182px;
   top: 76px;
   border-radius: 0px;
-  background: url(main/logos/logo-2.png);
+  background: url(/assets/images/main/logos/logo-2.png);
 }
 
 .logos .logo3 {
@@ -248,7 +248,7 @@ main .botao2 a {
   left: 349px;
   top: 75px;
   border-radius: 0px;
-  background: url(main/logos/logo-3.png);
+  background: url(/assets/images/main/logos/logo-3.png);
 }
 .logos .logo4 {
   position: absolute;
@@ -257,7 +257,7 @@ main .botao2 a {
   left: 501px;
   top: 76px;
   border-radius: 0px;
-  background: url(main/logos/logo-4.png);
+  background: url(/assets/images/main/logos/logo-4.png);
 }
 
 .logos .logo5 {
@@ -267,7 +267,7 @@ main .botao2 a {
   left: 747px;
   top: 78px;
   border-radius: 0px;
-  background: url(main/logos/logo-5.png);
+  background: url(/assets/images/main/logos/logo-5.png);
 }
 
 .logos .logo6 {
@@ -277,7 +277,7 @@ main .botao2 a {
   left: 934px;
   top: 78px;
   border-radius: 0px;
-  background: url(main/logos/logo-6.png);
+  background: url(/assets/images/main/logos/logo-6.png);
 }
 
 .logos .logo7 {
@@ -287,7 +287,7 @@ main .botao2 a {
   left: 1108px;
   top: 76px;
   border-radius: 0px;
-  background: url(main/logos/logo-7.png);
+  background: url(/assets/images/main/logos/logo-7.png);
 }
 
 .about {
@@ -529,7 +529,7 @@ main .botao2 a {
   left: 655px;
   right: 655px;
   bottom: 0px;
-  background: url(main/portifolio/imagens/img1.png);
+  background: url(/assets/images/main/portifolio/imagens/img1.png);
 }
 
 .portifolio .img2 {
@@ -538,7 +538,7 @@ main .botao2 a {
   left: 7px;
   bottom: 308px;
   right: 1296px;
-  background: url(main/portifolio/imagens/img2.png);
+  background: url(/assets/images/main/portifolio/imagens/img2.png);
 }
 
 .portifolio .img3 {
@@ -547,7 +547,7 @@ main .botao2 a {
   bottom: 0px;
   left: 986px;
   right: 303px;
-  background: url(main/portifolio/imagens/img3.png);
+  background: url(/assets/images/main/portifolio/imagens/img3.png);
 }
 .portifolio .img4 {
   position: absolute;
@@ -555,7 +555,7 @@ main .botao2 a {
   bottom: 77px;
   left: 986px;
   right: 303px;
-  background: url(main/portifolio/imagens/img4.png);
+  background: url(/assets/images/main/portifolio/imagens/img4.png);
   filter: drop-shadow(0px 4px 4px rgba(135, 146, 161, 0.08)),
     drop-shadow(0px 14px 25px rgba(135, 146, 161, 0.06));
   border-radius: 18px;
@@ -566,7 +566,7 @@ main .botao2 a {
   bottom: 0px;
   left: 324px;
   right: 965px;
-  background: url(main/portifolio/imagens/img5.png);
+  background: url(/assets/images/main/portifolio/imagens/img5.png);
   filter: drop-shadow(0px 4px 4px rgba(135, 146, 161, 0.08)),
     drop-shadow(0px 14px 25px rgba(135, 146, 161, 0.06));
   border-radius: 18px;
@@ -620,13 +620,13 @@ main .botao2 a {
   right: 155.29px;
 }
 .g1 .perfil1 {
-  background: url(main/feedbak/grupo1.png);
+  background: url(/assets/images/main/feedbak/grupo1.png);
 }
 .g2 .perfil2 {
-  background: url(main/feedbak/grupo2.png);
+  background: url(/assets/images/main/feedbak/grupo2.png);
 }
 .g3 .perfil3 {
-  background: url(main/feedbak/grupo3.png);
+  background: url(/assets/images/main/feedbak/grupo3.png);
 }
 
 .grupo .g1 {
@@ -784,7 +784,7 @@ main .botao2 a {
   width: 29px;
   height: 29px;
 
-  background: url(main/cta/icon-bt.png);
+  background: url(/assets/images/main/cta/icon-bt.png);
 }
 
 .cta .botao a {
@@ -859,7 +859,7 @@ footer .logo1 {
   top: 5.44px;
   letter-spacing: 0.58px;
 
-  background: url(footer/logo.png);
+  background: url(/assets/images/footer/logo.png);
   background-repeat: no-repeat;
 }
 
@@ -987,27 +987,27 @@ footer .logo1 {
   top: 1.02px;
   left: 1.02px;
 
-  background: url(footer/social/icon-facebook.png);
+  background: url(/assets/images/footer/social/icon-facebook.png);
 }
 .social2 {
   top: 1.36px;
   left: 40.96px;
-  background: url(footer/social/icon-instagram.png);
+  background: url(/assets/images/footer/social/icon-instagram.png);
 }
 .social3 {
   top: 2.05px;
   left: 79px;
-  background: url(footer/social/icon-twitter.png);
+  background: url(/assets/images/footer/social/icon-twitter.png);
 }
 .social4 {
   top: 1.16px;
   left: 116.72px;
-  background: url(footer/social/icon-dribbble.png);
+  background: url(/assets/images/footer/social/icon-dribbble.png);
 }
 .social5 {
   top: 1px;
   left: 156px;
-  background: url(footer/social/icon-envato.png);
+  background: url(/assets/images/footer/social/icon-envato.png);
 }
 
 .logo4 .h2 {
