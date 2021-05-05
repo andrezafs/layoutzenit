@@ -8,6 +8,7 @@
 header {
   display: flex;
   justify-content: center;
+  max-width: 1600px;
 }
 
 .header {
@@ -16,7 +17,14 @@ header {
   align-items: center;
   justify-content: center;
   flex: 1;
-  max-width: 1600px;
+
+}
+.logo {
+  display: flex;
+  right: 210px;
+  width: 80.97px;
+  height:27.95px ;
+  background-color: turquoise;
 }
 
 .menu {
@@ -75,34 +83,16 @@ header {
 /* refactor */
 
 main {
-  position: absolute;
-  width: 1600px;
+  max-width: 1600px;
   height: 1012px;
-  left: 0px;
   top: 82px;
 }
 
-.banner {
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 1600px;
-  height: 878px;
-  left: 0px;
-
-  background: linear-gradient(
-    180deg,
-    rgba(242, 249, 255, 0.12) 0%,
-    #f2f9ff 100%
-  );
-  border-radius: 0px;
-}
-
 main .banner h1 {
-  position: absolute;
-  width: 1178px;
+  flex: 1;
+
   height: 118px;
-  left: 210px;
-  top: 144px;
+  margin-top:  144px;
 
   font-style: normal;
   font-weight: 500;
@@ -114,17 +104,14 @@ main .banner h1 {
 
   color: #1e266d;
 }
-
 main .banner h2 {
-  position: relative;
-  width: 1180px;
+  flex: 1;
   height: 27px;
-  left: 210px;
-  top: 289px;
+  margin-top: 27px;
 
   font-size: 18px;
-  line-height: 150%;
-  /* identical to box height, or 27px */
+  line-height: 27px;
+  /* identical to box height, or 150%*/
 
   text-align: center;
 
@@ -135,19 +122,21 @@ main .botao {
   position: absolute;
   width: 148.06px;
   height: 50px;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
   left: 615px;
-  top: 345px;
+  top: 427px;
   background: #3751ff;
   border-radius: 100px;
 }
 
 main .botao a {
-  position: absolute;
+  flex: 1;
+  display: inline-flex;
+  margin-top: 17px;
   margin-left: 35px;
-  top: 17px;
-
-  width: 112px;
-  height: 16px;
 
   font-style: normal;
   font-weight: normal;
@@ -155,10 +144,9 @@ main .botao a {
   line-height: 100%;
   text-decoration: none;
 
-  display: flex;
   align-items: center;
   text-align: center;
-
+  justify-content: center;
   color: #ffffff;
 }
 
@@ -213,10 +201,10 @@ main .botao2 a {
 }
 
 .logos span {
-  position: absolute;
-  width: 441px;
-  left: 369px;
-  bottom: 85px;
+  flex: 1;
+  height:27px ;
+ 
+  margin-top: 649px;
 
   text-align: center;
 
@@ -227,22 +215,27 @@ main .botao2 a {
 
   color: rgba(69, 88, 128, 0.5);
 }
+
 .logos .logo1 {
-  position: absolute;
+  flex: 1;
   height: 34px;
-  width: 110px;
-  left: 0px;
-  top: 75px;
+  min-width: 110px;
+  
+  margin-top: 734px;
+  
+  align-items: center;
+  justify-content: right;
   border-radius: 0px;
   background: url(/assets/images/main/logos/logo-1.png);
 }
 
 .logos .logo2 {
-  position: absolute;
+  flex: 1;
   height: 33px;
   width: 95px;
-  left: 182px;
-  top: 76px;
+ 
+  margin-top: 734px;
+  align-items: center;
   border-radius: 0px;
   background: url(/assets/images/main/logos/logo-2.png);
 }
