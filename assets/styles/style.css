@@ -183,16 +183,19 @@ main .botao2 a {
   text-decoration: none;
 }
 main .grafico {
-  flex: 1;
-  display: flex;
-  
-  max-width: 1600px;
-  height: 585px;
-  
+ 
+display: flex;
+height: 533px;
+ 
+
+}
+.grafico img {
+  display: block;
+  max-width: 1400px;
+  flex-basis: 10%;
+ 
   
 
-  justify-content: center;
-  align-items: center;
   margin-top: 68px;
 }
 
@@ -294,10 +297,7 @@ main .grafico {
   height: 932px;
   max-width: 1600px;
   margin-top: 339px;
-
-  
 }
-
 
 .about h1 {
   flex: 1;
@@ -313,12 +313,17 @@ main .grafico {
 
   color: #1e266d;
 }
-
-.about .grafico img {
-  height: 932px;
-  width: 611px;
-  left: 0px;
-  top: 0px;
+ 
+.grafico {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex: 1;
+  height: 612px;
+ 
+ 
+  margin-left: 0px;
+ 
 }
 
 .about .text {
