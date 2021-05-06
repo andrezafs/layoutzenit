@@ -182,22 +182,25 @@ main .botao2 a {
   color: #455880;
   text-decoration: none;
 }
-.grafico img {
-  position: absolute;
-  width: 977px;
+main .grafico {
+  flex: 1;
+  display: flex;
+  
+  max-width: 1600px;
   height: 585px;
-  left: 342px;
-  top: 463px;
+  
+  
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 68px;
 }
 
 .logos {
-  position: absolute;
-
-  width: 1179.4px;
+  display: flex;
+  max-width: 1600px;
   height: 112px;
-  left: 210px;
-  right: 211.6px;
-  top: 1066px;
+  top: 1066px; 
 }
 
 .logos span {
