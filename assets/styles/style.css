@@ -199,7 +199,7 @@ main .grafico {
 .logos {
   display: flex;
   max-width: 1600px;
-  height: 112px;
+  height:112px;
   top: 1066px; 
  
 }
@@ -209,7 +209,7 @@ main .grafico {
   height:27px ;
  
   margin-top: 68px;
-  
+  justify-content: center;
   text-align: center;
  
   font-style: normal;
@@ -220,15 +220,11 @@ main .grafico {
   color: rgba(69, 88, 128, 0.5);
 }
 
-.logos .logo1 {
-  flex: 1;
+
+.logo1 {
+
   height: 34px;
-  min-width: 110px;
-  
-  margin-top: 734px;
-  
-  align-items: center;
-  justify-content: right;
+
   border-radius: 0px;
   background: url(/assets/images/main/logos/logo-1.png);
 }
@@ -294,18 +290,18 @@ main .grafico {
 }
 
 .about {
-  position: absolute;
+  
   height: 932px;
-  width: 1219px;
-  left: 205px;
-  top: 1408px;
+  max-width: 1600px;
+  margin-top: 339px;
+
+  
 }
 
+
 .about h1 {
-  height: 120px;
-  width: 1214px;
-  left: 210px;
-  top: 1417px;
+  flex: 1;
+  align-items: center;
 
   font-style: normal;
   font-weight: 500;
