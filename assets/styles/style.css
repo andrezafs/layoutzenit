@@ -201,16 +201,17 @@ main .grafico {
   max-width: 1600px;
   height: 112px;
   top: 1066px; 
+ 
 }
 
 .logos span {
   flex: 1;
   height:27px ;
  
-  margin-top: 649px;
-
+  margin-top: 68px;
+  
   text-align: center;
-
+ 
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
