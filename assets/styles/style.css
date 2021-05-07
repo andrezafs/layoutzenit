@@ -189,14 +189,16 @@ height: 533px;
  
 
 }
-.grafico img {
-  display: block;
-  max-width: 1400px;
-  flex-basis: 10%;
- 
+.graficoimg  {
+  display: flex;
+  flex: 1;
+  max-width: 1600px;
   
-
-  margin-top: 68px;
+  margin-top: 147px;
+  background:url( /assets/images/main/Graphic.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
 }
 
 .logos {
@@ -223,7 +225,7 @@ height: 533px;
   color: rgba(69, 88, 128, 0.5);
 }
 
-
+/* 
 .logo1 {
 
   height: 34px;
@@ -291,13 +293,14 @@ height: 533px;
   border-radius: 0px;
   background: url(/assets/images/main/logos/logo-7.png);
 }
+*/
 
 .about {
   
   height: 932px;
   max-width: 1600px;
   margin-top: 339px;
-}
+} 
 
 .about h1 {
   flex: 1;
@@ -326,7 +329,7 @@ height: 533px;
  
 }
 
-.about .text {
+/* .about .text {
   position: absolute;
   height: 641px;
   width: 405px;
@@ -426,7 +429,7 @@ height: 533px;
   top: 163px;
   bottom: 10px;
   border: 1px solid #45588033;
-}
+} */
 
 .portifolio {
   position: absolute;
