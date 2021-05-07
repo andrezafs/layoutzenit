@@ -200,6 +200,7 @@ height: 533px;
   max-width: 1600px;
   height:112px;
   top: 1066px; 
+  background-color: tomato;
  
 }
 
@@ -207,7 +208,6 @@ height: 533px;
   flex: 1;
   height:27px ;
  
-  margin-top: 68px;
   justify-content: center;
   text-align: center;
  
@@ -219,26 +219,40 @@ height: 533px;
   color: rgba(69, 88, 128, 0.5);
 }
 
-/* 
-.logo1 {
+.imagens {
+  display: flex;
+  max-width: 1600px;
+  height: 60px;
+ align-items: center;
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5,.logo6, .logo7{
+  display: flex;
+  margin-top: 75px;
+  
+}
+.imagens .logo1 {
 
   height: 34px;
+  width:110px ;
+  
 
   border-radius: 0px;
   background: url(/assets/images/main/logos/logo-1.png);
 }
 
-.logos .logo2 {
+.imagens .logo2 {
   flex: 1;
   height: 33px;
   width: 95px;
  
-  margin-top: 734px;
-  align-items: center;
+  margin-top: 10px;
+  
   border-radius: 0px;
   background: url(/assets/images/main/logos/logo-2.png);
 }
 
+/*
 .logos .logo3 {
   position: absolute;
   height: 34px;
