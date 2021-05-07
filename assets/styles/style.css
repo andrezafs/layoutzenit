@@ -118,35 +118,28 @@ main .banner h2 {
   color: #455880;
 }
 
-main .botao {
-  position: absolute;
+.botao {
+  margin:auto ;
+  display:flex ;
+  flex: 1;
   width: 148.06px;
   height: 50px;
   align-items: center;
+  margin-top:29px;
   justify-content: center;
 
-  position: absolute;
-  left: 615px;
-  top: 427px;
   background: #3751ff;
   border-radius: 100px;
 }
 
-main .botao a {
-  flex: 1;
-  display: inline-flex;
-  margin-top: 17px;
-  margin-left: 35px;
-
+ .botao a {
+ 
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 100%;
   text-decoration: none;
-
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+  
   color: #ffffff;
 }
 
