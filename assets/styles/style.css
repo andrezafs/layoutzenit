@@ -324,16 +324,23 @@ height: 533px;
 
   color: #1e266d;
 }
- 
-.grafico {
+
+.foto {
   display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex: 1;
-  height: 612px;
+  max-width: 1600px;
+  height:932px ;
+}
  
+.grafimg {
+  
+  flex: 1;
+  max-width: 1200px;
+  height: 932px;
  
-  margin-left: 0px;
+  margin: auto;
+  background: url(/assets/images/main/about/Graphic.png);
+  background-repeat: no-repeat;
+  background-size: contain;
  
 }
 
