@@ -118,29 +118,57 @@ main .banner h2 {
   color: #455880;
 }
 
-.botao {
-  margin:auto ;
+.botao, .botao2 {
   display:flex ;
-  flex: 1;
-  width: 148.06px;
-  height: 50px;
+  margin-top: 10px;
+
   align-items: center;
-  margin-top:29px;
   justify-content: center;
 
-  background: #3751ff;
   border-radius: 100px;
 }
 
- .botao a {
+.botoes {
+  display: flex;
+  
+  max-width: 1600px;
+  margin-top: 29px;
  
+  height: 70px;
+}
+
+.botao {
+  margin-left:auto;
+
+  width: 148.06px;
+  height: 50px;
+
+  background: #3751ff;
+}
+.botao2 {
+  margin-right: auto;
+
+  width: 199.26px;
+  height: 50px;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+
+
+}
+ .botao a, .botao2 a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+
   line-height: 100%;
   text-decoration: none;
-  
-  color: #ffffff;
+
+}
+.botao a {
+  color: white;
+}
+.botao2 a {
+  color:  #455880;
 }
 
 .botaomenu a:hover,
@@ -149,21 +177,29 @@ main .banner h2 {
   color: #ccc;
 }
 
-main .botao2 {
-  position: absolute;
+/* .botao2 {
+  margin: auto;
+  display: flex;
+  flex:2;
+
+ 
   width: 199.26px;
   height: 50px;
-  left: 785.53px;
-  top: 345px;
+  
+
+ align-items: center;
+  
+  margin-top: 29px;
+
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
   border-radius: 100px;
 }
-main .botao2 a {
-  position: absolute;
+.botao2 a {
+  display: flex;
   margin-left: 45px;
   height: 50px;
-  top: 0px;
+  
 
   font-style: normal;
   font-weight: normal;
@@ -174,7 +210,7 @@ main .botao2 a {
 
   color: #455880;
   text-decoration: none;
-}
+} */
 main .grafico {
  
 display: flex;
