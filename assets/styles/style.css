@@ -304,10 +304,11 @@ height: 533px;
 */
 
 .about {
-  
+  display: flex;
   height: 932px;
   max-width: 1600px;
   margin-top: 153px;
+  flex-direction: column;
 } 
 
 .about h1 {
@@ -344,23 +345,25 @@ height: 533px;
  
 }
 
-/* .about .text {
-  position: absolute;
+ /* .text {
+  margin: auto;
   height: 641px;
-  width: 405px;
-  left: 779px;
-  right: 35px;
-  top: 251px;
-}
+ 
+  background-color: teal;
 
+  flex-direction: column;
+} */
+
+
+/* 
 .text .text1 {
-  position: absolute;
+  flex: 1;
   height: 193px;
   width: 405px;
-  left: 0px;
-  top: 0px;
-}
 
+  
+} */
+/*
 .text .text2 {
   position: absolute;
   height: 193px;
@@ -447,57 +450,54 @@ height: 533px;
 } */
 
 .portifolio {
-  position: absolute;
+  
   height: 1001px;
-  width: 1600px;
-  left: 0px;
-  top: 2490px;
-  border-radius: 0px;
+  max-width: 1600px;
+  flex-direction: column;
+
+ 
+  
   background: #fff9ea;
 }
 
 .portifolio h1 {
-  position: absolute;
-  height: 60px;
-  width: 1178px;
-  left: 211px;
-  top: 139px;
+  flex: 1;
+  margin-top:139px ;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
 
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height, or 125% */
-
-  text-align: center;
 
   color: #1e266d;
 }
 
-.portifolio h2 {
-  position: absolute;
-  height: 96px;
-  width: 1178px;
-  left: 210px;
-  top: 239px;
+ .portifolio h2 {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  
 
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
   line-height: 150%;
-  /* or 31px */
+ 
 
   text-align: center;
 
   color: #455880;
-}
-
+} 
 .portifolio .botao {
-  position: absolute;
-  left: 728px;
+ display: flex;
+ 
   right: 723.94;
-  top: 375px;
-  bottom: 0%;
+  margin-top: 75px;
+  margin-right: auto;
+  
 
   background: #3751ff;
   border-radius: 100px;
@@ -511,15 +511,13 @@ height: 533px;
   font-weight: normal;
   font-size: 16px;
   line-height: 100%;
-  /* identical to box height, or 16px */
-
-  display: flex;
+ 
   align-items: center;
   text-align: center;
 
   color: #ffffff;
-}
-
+} 
+/*
 .portifolio .grafico {
   position: absolute;
   height: 733px;
