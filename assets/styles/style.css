@@ -593,18 +593,19 @@ height: 533px;
 }
 
 .feedback {
-  position: absolute;
+  
   height: 583px;
-  width: 1179px;
-  left: 210px;
-  top: 3723px;
+  margin-top: 232px;
+  max-width: 1600px;
+  
+
 }
 
 .feedback h1 {
-  top: 0px;
-  bottom: 523px;
-  left: 354.1px;
-  right: 342.23px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
 
   font-style: normal;
   font-weight: 500;
@@ -618,26 +619,26 @@ height: 533px;
 }
 
 .grupo {
-  position: absolute;
   display: flex;
-  flex-direction: row;
-  top: 116px;
 
+  max-width: 1600px;
+  margin-top: 10px;
+ 
   width: 1179px;
   height: 583px;
+
+  margin: auto;
 }
 
 .perfil1,
 .perfil2,
 .perfil3 {
-  position: absolute;
+  display: flex;
   width: 63.3px;
   height: 64px;
-
-  top: 288px;
-  bottom: 115px;
-  left: 154.3px;
-  right: 155.29px;
+  
+  margin: auto;
+  justify-content: center;
 }
 .g1 .perfil1 {
   background: url(/assets/images/main/feedbak/grupo1.png);
@@ -649,62 +650,31 @@ height: 533px;
   background: url(/assets/images/main/feedbak/grupo3.png);
 }
 
-.grupo .g1 {
-  display: flex;
-  position: absolute;
-
+.grupo .g1, .grupo .g2, .grupo .g3 {
+  flex: 1;
+  margin-top: 56px;
+  
   width: 372.89px;
   height: 467px;
-
-  top: 116px;
-  left: 0px;
-  bottom: 0px;
-  right: 806.11px;
-
-  border: 1px solid rgba(69, 88, 128, 0.2);
-  border-radius: 4px;
-}
-.grupo .g2 {
-  display: flex;
-  position: absolute;
-
-  width: 372.89px;
-  height: 467px;
-
-  top: 116px;
-  bottom: 0px;
-  left: 401.57px;
-  right: 404.54px;
-
+  margin-left: auto;
+  
+  
   border: 1px solid rgba(69, 88, 128, 0.2);
   border-radius: 4px;
 }
 
-.grupo .g3 {
-  display: flex;
-  position: absolute;
-
-  width: 372.89px;
-  height: 467px;
-
-  top: 116px;
-  bottom: 0px;
-  left: 806.11px;
-  right: 0px;
-
-  border: 1px solid rgba(69, 88, 128, 0.2);
-  border-radius: 4px;
+.g1, .g2 {
+  margin-right: 28.68px;
 }
 
 .g1 h1,
 .g2 h1,
 .g3 h1 {
-  position: absolute;
+  display: flex;
   width: 286px;
   height: 211px;
 
-  top: 38px;
-  left: 43px;
+  margin: auto;
 
   font-style: normal;
   font-weight: 400;
@@ -721,35 +691,36 @@ height: 533px;
 .g1 h2,
 .g2 h2,
 .g3 h2 {
-  position: absolute;
+display: flex;
   width: 270px;
   height: 28px;
 
-  top: 375px;
-  left: 51px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-top:51px ;
 
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 125%;
   /* identical to box height, or 27px */
-
-  text-align: center;
-
   color: #1e266d;
 }
 
 .g1 h3,
 .g2 h3,
 .g3 h3 {
-  position: absolute;
+  display: flex;
+
   width: 247px;
   height: 32px;
 
-  top: 403px;
-  bottom: 32px;
-  left: 63px;
-  right: 62.89;
+  margin: auto;
+  justify-content: center;
+
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
